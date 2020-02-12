@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule, MatNativeDateModule} from '@angular/material';
+import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { MatInputModule, MatNativeDateModule} from '@angular/material';
     MatInputModule,
     MatDatepickerModule,
     MatButtonModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatCardModule,
+    MatTabsModule
 
   ],
   providers: [],
