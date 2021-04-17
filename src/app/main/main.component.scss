@@ -1,22 +1,18 @@
-#sec{
-
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../../assets/marvin-meyer-SYTO3xs06fU-unsplash\ \(1\).jpg');
+#sec {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/marvin-meyer-SYTO3xs06fU-unsplash\ \(1\).jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 55vh;
+    height: 91vh;
     background-attachment: fixed;
 }
 
-
-.example-card{
-    box-shadow:0 2px 7px 0 rgba(0,0,0,0.4);
-    margin:5px;
+.example-card {
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.4);
+    margin: 5px;
 }
 
-.example-card:hover{
-transform: translateY(-5px);
-transition: 0.5s;
-    
+.example-card:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
-
